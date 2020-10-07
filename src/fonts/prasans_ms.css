@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'PRASans-MS';
+  src: url('PRASans-MS-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PRASans-MS";
+  src: url("PRASans-MS-Bold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "PRASans-MS";
+  src: url("PRASans-MS-italic.ttf");
+  font-style: italic;
+}
+@font-face {
+  font-family: "PRASans-MS";
+  src: url("PRASans-MS-Bolditalic.ttf");
+  font-style: italic;
+  font-weight: bold;
+}
+
+body {
+  font-family: 'PRASans-MS';
+}

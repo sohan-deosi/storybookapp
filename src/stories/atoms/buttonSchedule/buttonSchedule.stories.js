@@ -1,36 +1,35 @@
 import React from 'react';
-
-import { Button } from './Button';
+import { ButtonSchedule } from '.';
 
 export default {
-  title: 'Example/Button',
-  component: Button,
+  title: 'Components/Button',
+  component: ButtonSchedule,
   argTypes: {
     backgroundColor: { control: 'color' },
   },
 };
 
-const Template = (args) => <Button {...args} />;
+const Template = (args) => <ButtonSchedule {...args} />;
 
 export const Primary = Template.bind({});
 Primary.args = {
-  primary: true,
-  label: 'Button',
+  label: 'Schedule Appointment',
 };
 
 export const Secondary = Template.bind({});
 Secondary.args = {
-  label: 'Button',
+  primary: true,
+  label: 'Schedule Appointment',
 };
 
 export const Large = Template.bind({});
 Large.args = {
   size: 'large',
-  label: 'Button',
+  label: 'Schedule Appointment',
 };
 
 export const Small = Template.bind({});
 Small.args = {
   size: 'small',
-  label: 'Button',
+  label: 'Schedule Appointment',
 };

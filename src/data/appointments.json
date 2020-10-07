@@ -1,0 +1,34 @@
+[
+    {
+        "id":1,
+        "title":"Appointment 1",
+        "type":"Interview",
+        "date":"2020-09-19T10:59-0500",
+        "participent":"Participent Name",
+        "staff":"Staff User Name"
+    },
+    {
+        "id":2,
+        "title":"Appointment 2",
+        "type":"Meeting",
+        "date":"2020-10-19T01:59-0500",
+        "participent":"Participent Name",
+        "staff":"Staff User Name"
+    },
+    {
+        "id":3,
+        "title":"Appointment 3",
+        "type":"Deal",
+        "date":"2020-11-19T12:59-0500",
+        "participent":"Participent Name",
+        "staff":"Staff User Name"
+    },
+    {
+        "id":4,
+        "title":"Appointment 4",
+        "type":"Site Visit",
+        "date":"2020-12-19T01:59-0500",
+        "participent":"Participent Name",
+        "staff":"Staff User Name"
+    }
+]
